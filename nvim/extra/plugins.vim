@@ -45,6 +45,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " tmux
 Plug 'christoomey/vim-tmux-navigator'
 
+" golang
+Plug 'fatih/vim-go'
+
 call plug#end()
 
 """""""""""""""""
