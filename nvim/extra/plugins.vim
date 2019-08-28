@@ -12,16 +12,27 @@ Plug 'ervandew/supertab'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'vim-syntastic/syntastic'
+Plug 'yuttie/comfortable-motion.vim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
 """""""""""
 " Theming "
 """""""""""
 Plug 'flazz/vim-colorschemes'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/base16-vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
+Plug 'mhinz/vim-startify'
+Plug 'lifepillar/vim-solarized8'
 
 """""""""""""
 " Languages/Tools "

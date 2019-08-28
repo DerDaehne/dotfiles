@@ -1,5 +1,5 @@
 " set the colorscheme and other color related settings
-color kolor
+color koehler
 
 " Set dark theme
 syntax enable
